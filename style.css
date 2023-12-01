@@ -62,6 +62,9 @@ h5:hover{
     padding: 10px;
     color: white;
 }
+.content-2 h4 i{
+    padding-right: 5px;
+}
 .acceuil{
    width: 100%;
    height: 100vh;
@@ -135,12 +138,16 @@ h5:hover{
     width: 100px;
     height: 100px;
 }
+.page-img-position{
+    margin-bottom: 40px;
+}
 #page-img{
     width: 600px;
     height: 450px;
     margin-left: 200px;
     margin-top: 50px;
     border-radius: 20px;
+
 }
 #page-img-2{
     width: 350px;
@@ -149,6 +156,116 @@ h5:hover{
     border-radius: 20px;
 }
 #page-3{
-    height: 90vh;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://w0.peakpx.com/wallpaper/9/962/HD-wallpaper-mac-os-catalina-morning-nature-macbook-pro-apple-computer-original.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page-3-content{
+    margin-left: 900px;
+    margin-top: 200px;
+    color: white;
+}
+.page-3-content h1{
+    font-size: 60px;
+    width: 430px;
+}
+.page-3-content p{
+    font-weight: 900;
+    padding-top: 20px;
+    width: 400px;
+    line-height: 25px;
+}
+.page-3-content h5{
+    margin-left: 10px;
+    border: 0.5px solid;
+    height: 20px;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    width: 120px;
+    margin-top: 30px;
+
+}
+#page-4{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-4 h1{
+    font-size: 50px;
+    width: 600px;
+    color: white;
+}
+#page-5{
+    height: 100vh;
     width: 100%;
 }
+.card-position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.card h1{
+    text-align: center;
+    padding-top: 10px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease-in;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 30px white;
+}
+#page-6{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.content-page-6{
+    margin-left:100px;
+    margin-top: 200px;
+    color: white;
+
+}
+.content-page-6 h1{
+    font-size: 60px;
+    width: 430px;
+}
+.content-page-6 p{
+    font-weight: 900;
+    padding-top: 20px;
+    width: 400px;
+    line-height: 25px;
+}
+.content-page-6 h3{
+    margin-top: 50px;
+    
+}
+#page-6 img{
+    width: 450px;
+    height: 450px;
+    margin-top: 170px;
+    margin-left: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px white;
+}
+
