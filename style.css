@@ -167,7 +167,7 @@ h5:hover{
     color: white;
 }
 .page-3-content h1{
-    font-size: 60px;
+    font-size: 55px;
     width: 430px;
 }
 .page-3-content p{
@@ -291,12 +291,12 @@ footer{
 }
 .info-position h1{
     color: white;
-    text-decoration: underline red;
+    text-decoration: underline rgb(152, 152, 152);
     font-size: 20px;
     padding-top: 10px;
 }
 .info h3{
-    color: brown;
+    color: rgb(123, 123, 123);
     padding-top: 20px;
 }
 .info h3:hover{
