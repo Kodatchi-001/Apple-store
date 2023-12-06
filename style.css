@@ -381,6 +381,16 @@ footer{
         margin-top: 200px;
         color: white;
     }
+    .page-3-content h1{
+        font-size: 50px;
+        width: 400px;
+    }
+    .page-3-content p{
+        font-weight: 900;
+        padding-top: 20px;
+        width: 350px;
+        line-height: 25px;
+    }
     .content-page-6{
         margin-left:100px;
         margin-top: 200px;
@@ -413,6 +423,9 @@ footer{
     .content-page-6 h3{
         margin-top: 50px;
         
+    }
+    .content-2 h4{
+        width: 24vw;
     }
     #page-6 img{
         width: 350px;
