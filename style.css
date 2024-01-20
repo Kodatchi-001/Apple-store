@@ -321,22 +321,58 @@ footer{
     }
     .acceuil{
         flex-wrap: wrap;
-        height: 100vh;
+        height: 100%;
         margin-left: 0;
+        width: 100%;
+    }
+    .content-2{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 20px;
+        width: 100%;
+        gap: 5vw;
+    }
+    .content-2 h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        border: 0.5px solid;
+        height: 20px;
+        border-radius: 20px;
+        padding: 5px;
+        color: white;
+        transition: 0.5s ease-in;
+        width: 100%;
+    }
+    .content-2 h4 i{
+        padding-right: 5px;
+    }
+    .content-3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     #home{
-        padding-left: 50px;
+        padding-left: 0;
         padding-top: 100px;
     }
     #home h1{
         width: 250px;
     }
-    .home-p {
-        margin-left: -50px;
+    .home-p{
+        margin-left: 0;
+        width: 100%;
+    }
+    .home-p p{
+        padding-left: 0;
+        
+        color: rgba(255, 255, 255, 0.495);
     }
     .content-3{
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 0;
     }
     .img{
         margin-left: 0;
@@ -346,7 +382,7 @@ footer{
     }
     #page-2{
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
     .content-page{
         flex-wrap: wrap;
@@ -359,7 +395,7 @@ footer{
         font-size: 8vw;
         padding-left: 0;
         width: 80vw;
-        margin-top: 50vh;
+        margin-top: 5vh;
     }
     .content-page p{
         width: 80vw;
@@ -376,6 +412,7 @@ footer{
     }
     .page-img-position{
         margin-left: 0;
+        margin-bottom: 0;
     }
     #page-img{
         width: 100%;
@@ -394,6 +431,7 @@ footer{
         height: 100vh;
         width: 100%;
     }
+
     .page-3-content{
         margin-left: 0;
         margin-top: 0;
@@ -436,34 +474,35 @@ footer{
         width: 100%;
     }
     .card-position{
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 20px;        
     }
     .card{
         background-color: white;
         border-radius: 20px;
         width: 300px;
-        height: 300px;
+        height: 100%;
         transition: 1s ease-in;
     }
     .card img{
         width: 100%;
-        height: 30vh;
+        height: 20vh;
         padding-left: 0;
         padding-top: 20px;
     }
     #img-2{
         width: 100%;
-        height: 30vh;
+        height: 20vh;
         padding-left: 0;
         padding-top: 20px;
     }
     .card h1{
         text-align: center;
-        padding-top: 10px;
+        padding-top: 5px;
     
     }
     .card:hover{
@@ -478,23 +517,24 @@ footer{
         height: 100%;
         width: 100%;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
     .content-page-6{
         margin-left:50px;
-        margin-top: -120vh;
+        margin-top: 0vh;
         color: white;
     
     }
     .content-page-6 h1{
-        font-size: 60px;
-        width: 320px;
-        margin-top: 130vh;
+        font-size: 50px;
+        width: 100%;
+        margin-top: 5vh;
     }
     .content-page-6 p{
         font-weight: 900;
         padding-top: 20px;
-        width: 350px;
+        width: 100%;
         line-height: 25px;
     }
     .content-page-6 h3{
@@ -506,20 +546,36 @@ footer{
         width: 350px;
         height: 400px;
         margin-top: 50px;
-        margin-left: 45px;
+        margin-left: 0;
         border-radius: 30px;
         filter: grayscale(100%);
         transition: 0.5s ease-in;
        
     }
     footer{
-        margin-top: 20px;
         width: 100%;
         height: 100%;
     }
     .info-position{
+        width: 100%;
+        height: 30vh;
+        border-radius: 20px;
         display: flex;
         justify-content: center;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding-top: 2vh;
+    }
+    .info-position h1{
+        color: white;
+        text-decoration: underline rgb(152, 152, 152);
+        font-size: 20px;
+        padding-top: 2vh;
+    }
+    .info h3{
+        color: rgb(123, 123, 123);
+        padding-top: 1.5vh;
+    }
+    .info h3:hover{
+        color: white;
     }
 }
