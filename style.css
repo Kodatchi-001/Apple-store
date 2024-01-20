@@ -188,12 +188,6 @@ h5:hover{
     width: 430px;
     opacity: 0.8;
 }
-.page-3-content p{
-    font-weight: 900;
-    padding-top: 20px;
-    width: 400px;
-    line-height: 30px;
-}
 #page-4{
     height: 30vh;
     width: 100%;
@@ -321,7 +315,7 @@ footer{
 .info h3:hover{
     color: white;
 }
-@media  (min-width: 300px) and (max-width: 1400px){
+@media  (max-width: 600px){
    header{
         flex-wrap: wrap;
     }
@@ -333,7 +327,6 @@ footer{
     #home{
         padding-left: 50px;
         padding-top: 100px;
-
     }
     #home h1{
         width: 250px;
@@ -357,65 +350,86 @@ footer{
     }
     .content-page{
         flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
     .content-page h3{
-        font-size: 5vw;
+        font-size: 8vw;
         padding-left: 0;
-        width: 50vw;
+        width: 80vw;
         margin-top: 50vh;
     }
     .content-page p{
-        width: 100%;
+        width: 80vw;
         padding-left: 0;
         font-size: x-large;
         font-weight: 900;
+       
     }
     .content-page h4{
         padding-left: 0;
         padding-top: 50px;
         font-weight: 900;
+ 
     }
     .page-img-position{
-        margin-left: 15px;
+        margin-left: 0;
     }
     #page-img{
-        width: 70vw;
-        height: 60vh;
+        width: 100%;
+        height: 50vh;
         margin-left: 0vw;
         margin-top: 5vh;
-        border-radius: 20px;
+        border-radius: 0;
     }
     #page-img-2{
-        width: 70vw;
-        height: 80vh;
-        margin-left: 20vw;
-        border-radius: 20px;
+        width: 100%;
+        height: 70vh;
+        margin-left: 0;
+        border-radius: 0;
     }
     #page-3{
         height: 100vh;
         width: 100%;
-      
     }
     .page-3-content{
         margin-left: 0;
-        margin-top: 200px;
+        margin-top: 0;
         color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: black;
     }
     .page-3-content h1{
         font-size: 50px;
         width: 400px;
+        text-align: center;
     }
     .page-3-content p{
-        font-weight: 900;
-        padding-top: 20px;
-        width: 350px;
-        line-height: 25px;
+        opacity: 0;
     }
     .content-page-6{
         margin-left:100px;
         margin-top: 200px;
         color: white;
     
+    }
+    #page-4{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #page-4 h1{
+        font-size: 40px;
+        width: 100%;
+        color: white;
     }
     #page-5{
         height: 100%;
@@ -436,9 +450,15 @@ footer{
         transition: 1s ease-in;
     }
     .card img{
-        width: 250px;
-        height: 200px;
-        padding-left: 30px;
+        width: 100%;
+        height: 30vh;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    #img-2{
+        width: 100%;
+        height: 30vh;
+        padding-left: 0;
         padding-top: 20px;
     }
     .card h1{
@@ -448,8 +468,10 @@ footer{
     }
     .card:hover{
         transform: scale(1.1);
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
         box-shadow: 0px 0px 30px white;
     }
     #page-6{
@@ -467,7 +489,7 @@ footer{
     .content-page-6 h1{
         font-size: 60px;
         width: 320px;
-        margin-top: 1000px;
+        margin-top: 130vh;
     }
     .content-page-6 p{
         font-weight: 900;
@@ -492,6 +514,8 @@ footer{
     }
     footer{
         margin-top: 20px;
+        width: 100%;
+        height: 100%;
     }
     .info-position{
         display: flex;
