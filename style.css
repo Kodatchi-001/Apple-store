@@ -61,9 +61,14 @@ h5:hover{
     border-radius: 20px;
     padding: 10px;
     color: white;
+    transition: 0.5s ease-in;
 }
 .content-2 h4 i{
     padding-right: 5px;
+}
+.content-2 a :hover{
+   background-color: black;
+   color: white;
 }
 .acceuil{
    width: 100%;
@@ -87,6 +92,7 @@ h5:hover{
     border: 1px solid;
     border-radius: 20px;
     background-color:  rgba(0, 123, 255, 0.886);
+    transition: 1s ease-in;
 }
 .cercl{
     background-color: white;
@@ -95,6 +101,15 @@ h5:hover{
     height: 30px;
     margin-top: 5px;
     margin-left: 63px;
+    transition: 1s ease-in;
+
+}
+.botton-mod:hover{
+    background-color: rgb(255, 255, 255);
+    .cercl{
+        margin-left: 5px;
+        background-color: black;
+    }
 
 }
 .home-p{
@@ -157,35 +172,27 @@ h5:hover{
 #page-3{
     height: 100vh;
     width: 100%;
-    background-image: url(https://w0.peakpx.com/wallpaper/9/962/HD-wallpaper-mac-os-catalina-morning-nature-macbook-pro-apple-computer-original.jpg);
+    background-image: url(./assets/forest.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .page-3-content{
     margin-left: 900px;
     margin-top: 200px;
-    color: white;
+    color: rgb(0, 0, 0);
+ 
 }
 .page-3-content h1{
     font-size: 55px;
     width: 430px;
+    opacity: 0.8;
 }
 .page-3-content p{
     font-weight: 900;
     padding-top: 20px;
     width: 400px;
-    line-height: 25px;
-}
-.page-3-content h5{
-    margin-left: 10px;
-    border: 0.5px solid;
-    height: 20px;
-    border-radius: 30px;
-    padding: 15px;
-    color: white;
-    width: 120px;
-    margin-top: 30px;
-
+    line-height: 30px;
 }
 #page-4{
     height: 30vh;
@@ -200,10 +207,13 @@ h5:hover{
     color: white;
 }
 #page-5{
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .card-position{
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,26 +223,35 @@ h5:hover{
 .card{
     background-color: white;
     border-radius: 20px;
-    width: 300px;
+    width: 20vw;
     height: 300px;
     transition: 1s ease-in;
 }
-.card img{
-    width: 250px;
-    height: 200px;
+
+.img-1{
+    width: 15vw;
+    height: 30vh;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#img-2{
+    width: 15vw;
+    height: 25vh;
     padding-left: 30px;
     padding-top: 20px;
 }
 .card h1{
     text-align: center;
-    padding-top: 10px;
-
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: 900;
 }
 .card:hover{
     transform: scale(1.1);
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 0px 0px 30px white;
+    background-color: rgb(63, 63, 63);
 }
 #page-6{
     height: 100vh;
