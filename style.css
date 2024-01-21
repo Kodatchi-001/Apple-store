@@ -644,18 +644,20 @@ footer{
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
+        display: flex;
+        justify-content: center;
     }
     #page-img{
         width: 60vw;
         height: 60vh;
-        margin-left: 35vw;
+        margin-left: 0;
         margin-top: 50px;
         border-radius: 20px;
     }
     #page-img-2{
         width: 60vw;
         height: 65vh;
-        margin-left: 2vw;
+        margin-left: 0;
         border-radius: 20px;
     }
     #page-3{
