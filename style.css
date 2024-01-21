@@ -579,3 +579,211 @@ footer{
         color: white;
     }
 }
+@media (min-width: 700px) and (max-width: 1400px){
+    .acceuil{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+     }
+     #home{
+         padding-left: 0;
+         padding-top: 100px;
+     }
+     #home h1{
+         font-size: 50px;
+         width: 450px;
+         color: white;
+     }
+     .botton-mod{
+         margin-left: 10px;
+         margin-top: 20px;
+     }
+     .home-p{
+         border-radius: 1pc solid;
+         width: 450px;
+         display: flex;
+         flex-direction: row;
+         font-size: small;
+         margin-left: 0;
+         margin-top: 35px;
+     }
+     .home-p p{
+         padding-left: 20px;
+     }
+     .content-3{
+        margin-top: 50px;
+        margin-left: 0;
+        text-align: center;
+    }
+    #page-2{
+        width: 100%;
+        height: 100%;
+    }
+    .content-page{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: white;
+    }
+    .content-page h3{
+        padding-left: 0;
+        padding-top: 5vh;
+        width: 65vw;
+        font-size: 5vh;
+    }
+    .content-page p{
+        width: 60vw;
+        padding-left: 8vw;
+        font-size: 3vw;
+        font-weight: 900;
+        padding-top: 5vh;
+    }
+    .page-img-position{
+        margin-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #page-img{
+        width: 60vw;
+        height: 60vh;
+        margin-left: 35vw;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+    #page-img-2{
+        width: 60vw;
+        height: 65vh;
+        margin-left: 2vw;
+        border-radius: 20px;
+    }
+    #page-3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(./assets/forest.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+    }
+    .page-3-content{
+        margin-left: 0;
+        margin-top: 200px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    .page-3-content h1{
+        font-size: 55px;
+        width: 100vw;
+        opacity: 0.8;
+    }
+    .page-3-content p{
+        opacity: 0;
+    }
+    #page-4{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #page-4 h1{
+        font-size: 50px;
+        width: 600px;
+        color: white;
+    }
+    #page-5{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .card-position{
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .card{
+        background-color: white;
+        border-radius: 20px;
+        width: 40vw;
+        height: 100%;
+        transition: 1s ease-in;
+    }
+    
+    .img-1{
+        width: 100%;
+        height: 30vh;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    #img-2{
+        width: 100%;
+        height: 25vh;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .card h1{
+        text-align: center;
+        padding-top: 0px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0px 0px 30px white;
+        background-color: rgb(63, 63, 63);
+    }
+    #page-6{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-page-6{
+        margin-left: 0vw;
+        margin-top:  5vh;
+        color: white;
+    
+    }
+    .content-page-6 h1{
+        font-size: 60px;
+        width: 430px;
+    }
+    .content-page-6 p{
+        font-weight: 900;
+        padding-top: 20px;
+        width: 400px;
+        line-height: 25px;
+    }
+    .content-page-6 h3{
+        margin-top: 50px;
+        
+    }
+    #page-6 img{
+        width: 70vw;
+        height: 60vh;
+        margin-top: 5vh;
+        margin-left: 0;
+        border-radius: 30px;
+        filter: grayscale(100%);
+        transition: 0.5s ease-in;
+       
+    }
+    #page-6 img:hover{
+          filter: grayscale(0);
+    }
+    footer{
+        margin-top: 5vh;
+    }
+}
